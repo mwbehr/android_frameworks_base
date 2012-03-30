@@ -973,12 +973,13 @@ please see themes_device_defaults.xml.
         <item name="galleryItemBackground">@android:drawable/gallery_item_background</item>
         
         <!-- Window attributes -->
+        <item name="windowBackground">@drawable/tinted_trans_bg</item>
         <item name="windowFrame">@null</item>
         <item name="windowNoTitle">false</item>
         <item name="windowFullscreen">false</item>
         <item name="windowIsFloating">false</item>
         <item name="windowContentOverlay">@null</item>
-        <item name="windowShowWallpaper">false</item>
+        <item name="windowShowWallpaper">true</item>
         <item name="windowTitleStyle">@android:style/WindowTitle.Holo</item>
         <item name="windowTitleSize">25dip</item>
         <item name="windowTitleBackgroundStyle">@android:style/WindowTitleBackground.Holo</item>
